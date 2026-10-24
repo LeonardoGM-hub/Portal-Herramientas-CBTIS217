@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    
 
     <form method="POST" action="tabla.php">
         <label for="numero">Ingresa un numero:</label>

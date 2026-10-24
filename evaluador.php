@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    
 
     <form method="POST" action="evaluador.php">
         <label for="calificacion">Ingresa la calificacion (0 a 100):</label>

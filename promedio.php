@@ -12,7 +12,7 @@
 <h1>Promedio </h1>
 
 <form method="POST">
-    <label>Primera calificacion (0-100):</label>
+    <label>Primer calificacion (0-100):</label>
     <input type="number" step="any" min="0" max="100" name="c1" required>
 
     <label>Segunda calificacion (0-100):</label>
