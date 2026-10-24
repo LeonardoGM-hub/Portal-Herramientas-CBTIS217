@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Generar tablas</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -15,6 +16,7 @@
     <br>
 
     <?php
+    include 'menu.php';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_POST['numero']) && $_POST['numero'] !== '') {
             $numero = intval($_POST['numero']);
